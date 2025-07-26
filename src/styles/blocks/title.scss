@@ -1,0 +1,36 @@
+.notice {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px 30px;
+  background-color: rgba(164, 150, 150, 0.08);
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(244, 235, 235, 0.2);
+  color: #faf8f8;
+  cursor: pointer;
+  font-family: 'Georgia', serif;
+  line-height: 1.9;
+  font-size: 1rem;
+  backdrop-filter: blur(2.5px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+
+  transition: box-shadow 0.3s ease;
+  &:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5),
+                0 0 40px rgba(255, 255, 255, 0.4);
+    opacity: 1;
+  }
+}
+
+.notice__title {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #d1af52;
+  text-shadow: 1px 1px 2px #000
+
+}
+
+.notice__text {
+ margin-bottom: 30px;
+
+}
