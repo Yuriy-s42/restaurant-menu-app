@@ -160,11 +160,11 @@
       });
     }
   }
-})({"daPeT":[function(require,module,exports,__globalThis) {
+})({"5j6Kf":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
-var HMR_SERVER_PORT = 61751;
+var HMR_SERVER_PORT = 1234;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "439701173a9199ea";
 var HMR_USE_SSE = false;
@@ -669,6 +669,6 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 },{}],"a0t4e":[function(require,module,exports,__globalThis) {
 console.log("JS \u043F\u0456\u0434\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0439 \u0456 \u043F\u0440\u0430\u0446\u044E\u0454!");
 
-},{}]},["daPeT","a0t4e"], "a0t4e", "parcelRequire81e6", {})
+},{}]},["5j6Kf","a0t4e"], "a0t4e", "parcelRequire81e6", {})
 
 //# sourceMappingURL=restaurant-menu-app.31b563d9.js.map
