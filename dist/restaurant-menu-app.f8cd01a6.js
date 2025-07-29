@@ -1,0 +1,2 @@
+console.log("JS підключений і працює!"),document.addEventListener("DOMContentLoaded",()=>{let e=document.getElementById("modal");document.getElementById("modalClose").addEventListener("click",()=>{e.style.display="none"});let t=document.querySelector(".menu-item");t&&t.addEventListener("click",()=>{e.style.display="block",document.getElementById("modalTitle").textContent="Назва страви",document.getElementById("modalDescription").textContent="Опис страви..."})});
+//# sourceMappingURL=restaurant-menu-app.f8cd01a6.js.map

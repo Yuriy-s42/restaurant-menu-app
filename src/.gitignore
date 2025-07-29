@@ -2,10 +2,10 @@
 .parcel-cache/
 dist/
 
-# Node_modules, якщо є
+# Node_modules
 node_modules/
 
-# Файли операційної системи
+# Системні файли
 .DS_Store
 Thumbs.db
 

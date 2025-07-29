@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Menu Chili Pizza</title>
-    <link rel="stylesheet" href="./styles/main.scss" />
+    <title>Меню Піца</title>
     <link rel="icon" href="./images/LOGO_chilirest.webp" type="image/x-icon" />
   </head>
   <body class="menu-page">
@@ -28,6 +27,7 @@
     </div>
 
     <section class="menu">
+      <!-- Всі твої елементи меню піци тут -->
       <div class="menu-item">
         <img
           src="./images/margarita.jpg"
@@ -84,15 +84,6 @@
 
       <div class="menu-item">
         <img
-          src="./images/вегетер.png"
-          alt="Vegeterian"
-          class="menu-item__imag menu-item__imag--Vegeterian"
-        />
-        <h2 class="menu-item__title">Вегетеріанська</h2>
-      </div>
-
-      <div class="menu-item">
-        <img
           src="./images/тоскана.webp"
           alt="Toskana"
           class="menu-item__imag menu-item__imag--toskana"
@@ -126,26 +117,21 @@
         />
         <h2 class="menu-item__title">М'ясна</h2>
       </div>
-
-      <div class="menu-item">
-        <img
-          src="./images/грибна.png"
-          alt="Gribna"
-          class="menu-item__imag menu-item__imag--gribna"
-        />
-        <h2 class="menu-item__title">Грибна</h2>
-      </div>
+      <!-- ... решта меню ... -->
     </section>
+
     <div id="modal" class="modal">
       <div class="modal-content">
         <span id="modalClose" class="modal-close" style="cursor: pointer"
-          >&times</span
+          >&times;</span
         >
         <h2 id="modalTitle"></h2>
         <p id="modalDescription"></p>
         <ul id="modalSizesPrices"></ul>
       </div>
     </div>
-    <script src="./scripts/modal.js"></script>
+
+    <!-- Підключення головного JS-модуля, який імпортує стилі та скрипти -->
+    <script type="module" src="./index.js"></script>
   </body>
 </html>

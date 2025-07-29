@@ -1,15 +1,14 @@
-@import 'blocks/header.scss';
-@import './blocks/title';
-@import './blocks/modal';
+@use 'blocks/header.scss';
+@use './blocks/title';
+@use './blocks/modal' as blocksModal;
 
 
-@import './components/home';
-@import './components/menu';
+@use './components/home';
+@use './components/menu';
 
-@import 'sushi/sushi';
-@import './sushi/modal';
-
-@import './components/media';
+@use 'sushi/sushi';
+@use './sushi/modal' as sushiModal;
+@use './components/media';
 
 
 
