@@ -1,11 +1,12 @@
 .menu {
-  display:grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 30px;
-  padding: 40px 20px;
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+ gap: 80px;
+
+  padding: 20px;
   background-color: rgba(10, 9, 9, 0.05); 
   backdrop-filter: blur(4px);
-  border-radius: 5px;
+  border-radius: 60px;
   max-width: 1100px;
   margin: 0 auto;
 }
@@ -14,7 +15,7 @@
   background-color: #252525;
   border: 2.5px  solid rgb(240, 223, 217);;
   border-radius: 50px;
-  padding: 15px;
+  padding: 30px;
   transition: transform 0.2s ease, 
   box-shadow 0.2s ease;
   backdrop-filter: blur(2px);
@@ -28,7 +29,7 @@
 .menu-item__title {
   font-size: 20px;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   color: #fff1e6;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }

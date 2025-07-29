@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Меню Суші</title>
     <link rel="icon" href="./images/LOGO_chilirest.webp" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/main.scss" />
   </head>
   <body class="sushi-page">
     <div class="menu-header">
@@ -18,7 +19,7 @@
       </a>
     </div>
 
-    <section class="menu">
+    <section class="menu-list">
       <!-- Тут додавай елементи суші -->
       <div class="menu-item">
         <img src="./images/суші.jpg" alt="Філадельфія" class="menu-item__img" />
@@ -81,19 +82,5 @@
       </div>
       <!-- додай інші суші тут -->
     </section>
-
-    <div id="modal" class="modal">
-      <div class="modal-content">
-        <span id="modalClose" class="modal-close" style="cursor: pointer"
-          >&times;</span
-        >
-        <h2 id="modalTitle"></h2>
-        <p id="modalDescription"></p>
-        <ul id="modalSizesPreces"></ul>
-      </div>
-    </div>
-
-    <!-- Підключаємо головний JS-модуль, де імпортовані стилі і скрипти -->
-    <script type="module" src="./index.js"></script>
   </body>
 </html>
