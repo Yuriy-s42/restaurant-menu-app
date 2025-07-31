@@ -1,0 +1,12 @@
+# Ігноруємо кеш Parcel і згенеровані файли
+.parcel-cache/
+dist/
+
+# Node_modules
+node_modules/
+
+# Системні файли
+.DS_Store
+Thumbs.db
+
+

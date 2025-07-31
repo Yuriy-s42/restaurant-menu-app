@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Меню Піца</title>
+
+    <link rel="icon" href="./images/LOGO_chilirest.webp" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/main.scss" />
+  </head>
+  <body class="menu-page">
+    <div class="menu-header">
+      <h1 class="title__chili">Меню Піца</h1>
+      <script type="module" src="./scripts/modal.js"></script>
+      <a href="index.html" class="btn-back" aria-label="Back to home page">
+        <img
+          src="./images/burger-icon2.png"
+          alt="Back to Home"
+          class="btn-back__icon"
+        />
+      </a>
+
+      <a href="sushi.html" class="btn-sushi" aria-label="Перейти до меню суші">
+        <img
+          src="./images/burger-icon2.png"
+          alt="Меню Суші"
+          class="btn-sushi__icon"
+        />
+      </a>
+    </div>
+
+    <section class="menu">
+      <!-- Всі твої елементи меню піци тут -->
+      <div class="menu-item">
+        <img
+          src="./images/margarita.jpg"
+          alt="Маргарита"
+          class="menu-item__img"
+        />
+        <h2 class="menu-item__title">Маргарита</h2>
+      </div>
+
+      <div class="menu-item">
+        <img
+          src="./images/папероні.jpeg"
+          alt="Папероні"
+          class="menu-item__imag menu-item__img--peperoni"
+        />
+        <h2 class="menu-item__title">Папероні</h2>
+      </div>
+
+      <div class="menu-item">
+        <img
+          src="./images/havayska.jpg"
+          alt="Гавайська"
+          class="menu-item__imag menu-item__image--havayska"
+        />
+        <h2 class="menu-item__title">Гавайська</h2>
+      </div>
+
+      <div class="menu-item">
+        <img
+          src="./images/4chiz.png"
+          alt="4 Сири"
+          class="menu-item__imag menu-item__image--chiz"
+        />
+        <h2 class="menu-item__title">4 Сири</h2>
+      </div>
+
+      <div class="menu-item">
+        <img
+          src="./images/pizza_chiken_barbecue.webp"
+          alt="BBQ"
+          class="menu-item__imag menu-item__image--BQQ"
+        />
+        <h2 class="menu-item__title">BBQ</h2>
+      </div>
+
+      <div class="menu-item">
+        <img
+          src="./images/карбонара.jpg"
+          alt="Carbonara"
+          class="menu-item__imag menu-item__imag--Carbonara"
+        />
+        <h2 class="menu-item__title">Карбонара</h2>
+      </div>
+
+      <div class="menu-item">
+        <img
+          src="./images/тоскана.webp"
+          alt="Toskana"
+          class="menu-item__imag menu-item__imag--toskana"
+        />
+        <h2 class="menu-item__title">Тоскана</h2>
+      </div>
+
+      <div class="menu-item">
+        <img
+          src="./images/цезар.jpeg"
+          alt="Cezar"
+          class="menu-item__imag menu-item__imag--cezar"
+        />
+        <h2 class="menu-item__title">Цезар</h2>
+      </div>
+
+      <div class="menu-item">
+        <img
+          src="./images/дьябло.jpg"
+          alt="Dyablo"
+          class="menu-item__imag menu-item__imag--dyablo"
+        />
+        <h2 class="menu-item__title">Дьябло</h2>
+      </div>
+
+      <div class="menu-item">
+        <img
+          src="./images/мясна.jpg"
+          alt="Myasna"
+          class="menu-item__imag menu-item__imag--myasna"
+        />
+        <h2 class="menu-item__title">М'ясна</h2>
+      </div>
+      <!-- ... решта меню ... -->
+    </section>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span id="modalClose" class="modal-close" style="cursor: pointer"
+          >&times;</span
+        >
+        <h2 id="modalTitle"></h2>
+        <p id="modalDescription"></p>
+        <ul id="modalSizesPrices"></ul>
+      </div>
+    </div>
+
+    <!-- Підключення головного JS-модуля, який імпортує стилі та скрипти -->
+  </body>
+</html>

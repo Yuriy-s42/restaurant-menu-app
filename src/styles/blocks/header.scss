@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  width: 100%;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #31312f;
+  
+}
+
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  max-width: 100px;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 3%;
+  border: 0.3px solid #e3dede;
+  box-shadow: 15 12 15px rgba(255, 255, 255, 0.3);
+  background-color: rgb(186, 159, 159);
+}
+
+ .header__content {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 20px 40px;
+  background: linear-gradient(135deg, #49351a, #916f50);
+  border-radius: 55px;
+  height: 100px;
+  max-width: 90%;
+  margin: 60px auto;
+  opacity: 0.7;
+
+  // підсвічування:
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3),
+              0 0 30px rgba(255, 255, 255, 0.2);
+
+  transition: box-shadow 0.3s ease;
+
+  // ефект при наведенні:
+  &:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5),
+                0 0 40px rgba(255, 255, 255, 0.4);
+    opacity: 1;
+  }
+}
+
+
+.header__burger {
+  position: absolute;
+  border: 1.6px solid rgb(92, 80, 80);
+  border-radius: 8px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 10px #f0eae980;
+  background-color: rgba(99, 90, 81, 0.011);
+  top : 15px;
+  right: 30px;
+  padding: 15px;
+  width: 50px;
+  height: auto;
+  cursor: pointer;
+  z-index: 10;
+  transition: transform 0.6s ease-in-out;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+}
+
+.header__chili-pizza {
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  object-fit: cover;
+  border: 3px solid #c5bbbb;
+  box-shadow: 3px 3px 3px 3px rgba(254, 247, 247, 0.3);
+  flex-shrink: 0;
+}
+
+.header__title {
+  font-family: 'Georgia', serif;
+  font-size: 2.8rem;
+  font-weight: 700;  // видалив px, бо font-weight — число
+  margin: 0;
+  color: #ffffff;                     
+  text-shadow: 1px 7px 1px #010101d0;
+}
+
+.header__subtitle {
+  font-family: 'Georgia', serif;
+  font-size: 25px;
+  color: #ffffff;
+  margin: 30px;                 
+  text-shadow: 1px 7px 1px #010101d0;
+
+}
+
+.background {
+  position: fixed; // залишає фон зафіксованим при скролі
+  top: 0;
+  left: 0;
+  width: 100vw; // краще ніж %, точно по ширині екрана
+  height: 100vh; // точно по висоті екрана
+
+  background-image: url('../images/fon.jpg'); // перевір правильність шляху
+  background-size: cover; // покриває всю область, може обрізати, але не спотворює
+  background-position: center center; // по центру і по горизонталі, і вертикалі
+  background-repeat: no-repeat;
+
+  z-index: -1; // розміщує фон під усім іншим вмістом
+
+  // Ефекти:
+  filter: brightness(0.6) blur(1px); // затемнення і легкий блюр
+  opacity: 0.9; // легка прозорість для "м'якшого" вигляду
+}
+
