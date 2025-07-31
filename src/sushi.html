@@ -10,6 +10,7 @@
   <body class="sushi-page">
     <div class="menu-header">
       <h1 class="title__chili">Меню Суші</h1>
+      <script type="module" src="./scripts/modal-sushi.js"></script>
       <a href="menu.html" class="btn-back" aria-label="Назад до меню піци">
         <img
           src="./images/burger-icon2.png"
@@ -82,5 +83,16 @@
       </div>
       <!-- додай інші суші тут -->
     </section>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span id="modalClose" class="modal-close" style="cursor: pointer"
+          >&times;</span
+        >
+        <h2 id="modalTitle"></h2>
+        <p id="modalDescription"></p>
+        <ul id="modalSizesPrices"></ul>
+      </div>
+    </div>
   </body>
 </html>

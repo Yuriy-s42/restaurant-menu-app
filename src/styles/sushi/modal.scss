@@ -16,8 +16,9 @@
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.3s ease;
+}
 
-  &--open {
+  .modal--open {
     opacity: 1;
     pointer-events: auto;
     display: flex; /* при відкритті */
@@ -78,4 +79,4 @@
       }
     }
   }
-}
+

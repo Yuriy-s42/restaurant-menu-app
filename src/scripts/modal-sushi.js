@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const modalClose = document.getElementById('modalClose');
   const modalTitle = document.getElementById('modalTitle');
   const modalDescription = document.getElementById('modalDescription');
-  const modalSizesPrices = document.getElementById('modalSizesPreces'); // Ти мав саме такий ID
+  const modalSizesPrices = document.getElementById('modalSizesPrices'); // Ти мав саме такий ID
 
   const menuItems = document.querySelectorAll('.menu-item');
 
